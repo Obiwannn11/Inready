@@ -1,0 +1,30 @@
+div {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+.atas{
+    background-color: red;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+
+}
+
+.tengah{
+    background-color: yellow;
+}
+
+.bawah {
+    background-color: green;
+
+}
+
+.container {
+    width: 600px;
+    height: 600px;
+    border: 10px solid black;
+    position: relative;
+    display: flex;
+}

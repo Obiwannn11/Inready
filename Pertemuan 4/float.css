@@ -1,0 +1,65 @@
+.container {
+    width: 800px;
+    border: 4px solid black;
+    padding: 10px;
+    overflow: auto;
+}
+
+img {
+    float: right;
+    margin: 10px;
+}
+
+.containerr {
+    max-width: 500px;
+    /* Lebar maksimum container */
+    margin: 0 auto;
+    /* Untuk menengahkan container */
+    padding: 20px;
+}
+
+.box {
+    padding: 20px;
+    margin-bottom: 10px;
+    color: white;
+    text-align: center;
+}
+
+.box1 {
+    background-color: #3498db;
+    min-height: 100px;
+    /* Tinggi minimum elemen 1 */
+}
+
+.box2 {
+    background-color: #e74c3c;
+    max-height: 250px;
+    /* Tinggi maksimum elemen 2 */
+    overflow-y: scroll;
+}
+
+
+.box2::-webkit-scrollbar{
+    display: none;
+}
+
+/* laptop */
+@media only screen and (min-width: 1024px) {
+    body{
+        background-color: red;
+    }
+}
+
+/* tablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    body{
+        background-color: yellow;
+    }
+}
+
+/* hp */
+@media only screen and (max-width: 767px) {
+    body{
+        background-color: green;
+    }
+}
